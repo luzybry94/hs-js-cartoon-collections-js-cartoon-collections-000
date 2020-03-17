@@ -1,6 +1,6 @@
 function dwarfRollCall(array) {
   let str = ""
-  for(let i = 0; i < array.length; i++) {
+  for(let i = 0; i < array.length/2; i++) {
   str += `${i+1}. ${array[i]} `
   }
   return str
@@ -42,4 +42,7 @@ function findTheCheese(snacksArray) {
   }
   return 'no cheese!'
 }
+
+/*["banana", "cheddar", "sock"];
+["banana", "tomato", "sock"]*/
 
